@@ -1,0 +1,10 @@
+heaher {
+  height: 400;
+  width: 100%;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  background-color: #002757;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  
+}
