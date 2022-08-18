@@ -1,0 +1,109 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#tweet-text {
+  width: 100%;
+  border: 0px;
+  border-bottom: 5px solid orangered;
+  background-color: transparent;
+}
+
+.container {
+  background-color: aliceblue;
+
+}
+
+.new-tweet {
+  width: 100%;
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: red;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+button {
+  position: absolute;
+  color: white;
+  background-color: #4056A1;
+  border: none;
+  border-radius:10px; 
+  padding: 15px;
+  min-height:30px; 
+  min-width: 120px;
+}
+
+.counter {
+  font-family: 'Bungee', cursive;
+}
+
+.counter-red {
+  color: red;
+}
+
+/* -------------------------------------- */
+
+article {
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+article:hover {
+  box-shadow: 3px 3px;
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tweet-header > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tweet-footer-right > i {
+  margin: 0 3px;
+}
+
+article > p {
+  width: 100%;
+  border-bottom: 3px solid black;
+  padding: 35px;
+  margin-bottom: 15px;
+}
+
+.fa-flag:hover {
+  color: yellow;
+}
+
+.fa-retweet:hover {
+  color: yellow;
+}
+
+.fa-heart:hover {
+  color: yellow;
+}
+
+.person-name {
+  margin: auto;
+}
