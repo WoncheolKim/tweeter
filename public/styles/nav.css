@@ -24,9 +24,17 @@ span {
   justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 2;
-  color: red;
+  color: white;
 }
 
 .top-left {
   font-size: 100%;
 }
+
+nav span i {
+  color: red;
+  animation: bounce 1.5s infinite;
+  animation-timing-function: linear;
+}
+
+
