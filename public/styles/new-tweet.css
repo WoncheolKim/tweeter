@@ -4,15 +4,13 @@ form {
 }
 
 textarea {
-  width: 90%;
+  width: 100%;
   border: 0px;
-  margin-left: 5%;
-  border-bottom: 5px solid orangered;
-  background-color: green;
+  border-bottom: 5px solid black;
 }
 
 textarea::placeholder {
-  color: white;
+  color: black;
   font-size: 100%;
 }
 
@@ -31,26 +29,19 @@ textarea::placeholder {
 
 .bottom {
   margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
 }
 
-button {
-  position: absolute;
-  color: white;
-  background-color: #4056A1;
-  border: none;
-  border-radius:10px; 
-  padding: 15px;
-  min-height:30px; 
-  min-width: 120px;
-}
-
-button:hover {
-  transform: scale(1.1);
+.new-tweet  button {
+  cursor: pointer;
+  font-family: 'Bungee', cursive;
+  font-size: 20px;
 }
 
 .counter {
   font-family: 'Bungee', cursive;
-  font-size: 100px;
+  font-size: 30px;
   color: green;
 }
 
@@ -63,7 +54,7 @@ button:hover {
 article {
   display: block;
   border: 5px solid black;
-  margin: auto;
+  padding: 10px;
 }
 
 article header {
@@ -72,11 +63,14 @@ article header {
   align-items: center;
 }
 
-.article header > div{
+article header > div{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+}
+
+article header div img {
+  margin-right: 10px;
 }
 
 article:hover {
@@ -84,11 +78,10 @@ article:hover {
 }
 
 
-.article footer {
+article footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 }
 
 .tweet-footer-right > i {
@@ -126,6 +119,5 @@ article > p {
   align-items: center;
   color:  yellow;
   border: 5px solid yellow;
-  margin: 0 auto;
 }
 
