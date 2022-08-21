@@ -1,13 +1,19 @@
 form {
-  display: flex;
-  flex-direction: column;
+  background-color: white;
+  width: 100%;
 }
 
-#tweet-text {
-  width: 100%;
+textarea {
+  width: 90%;
   border: 0px;
+  margin-left: 5%;
   border-bottom: 5px solid orangered;
-  background-color: transparent;
+  background-color: green;
+}
+
+textarea::placeholder {
+  color: white;
+  font-size: 100%;
 }
 
 .container {
@@ -16,17 +22,14 @@ form {
 }
 
 .new-tweet {
-  width: 100%;
   display: flex;
-  width: 75%;
+  background-color: #00A8CC;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  color: red;
 }
 
 .bottom {
-  display: flex;
-  justify-content: space-between;
   margin-top: 2%;
 }
 
@@ -41,8 +44,14 @@ button {
   min-width: 120px;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
 .counter {
   font-family: 'Bungee', cursive;
+  font-size: 100px;
+  color: green;
 }
 
 .counter-red {
@@ -53,28 +62,29 @@ button {
 
 article {
   display: block;
-  border: 2px solid black;
+  border: 5px solid black;
   margin: auto;
 }
 
-article:hover {
-  box-shadow: 3px 3px;
+article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.tweet-header {
+.article header > div{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
 
-.tweet-header > div{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+article:hover {
+  box-shadow: 5px 5px #00A8CC;
 }
 
-.tweet-footer {
+
+.article footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,4 +116,16 @@ article > p {
 
 .person-name {
   margin: auto;
+  font-weight: 500;
 }
+
+.new-tweet > div {
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+  align-items: center;
+  color:  yellow;
+  border: 5px solid yellow;
+  margin: 0 auto;
+}
+
