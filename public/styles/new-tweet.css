@@ -96,15 +96,15 @@ article > p {
 }
 
 .fa-flag:hover {
-  color: yellow;
+  color: blue;
 }
 
 .fa-retweet:hover {
-  color: yellow;
+  color: blue;
 }
 
 .fa-heart:hover {
-  color: yellow;
+  color: blue;
 }
 
 .person-name {

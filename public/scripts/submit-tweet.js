@@ -13,7 +13,7 @@ $form.on('submit', (event) => {
     url: '/tweets',
     // Use $form.serialize here instead of $tweetData since if you have more than one text area in the form you can get all with form
     // with $tweetData you could only get the one you selected and that defeats the whole serization process
-    data: $form.serialize(),
+    data: $form.serialize(), 
     success: () => {console.log($form.serialize())}    
   });
 
