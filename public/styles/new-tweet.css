@@ -121,3 +121,8 @@ article > p {
   border: 5px solid yellow;
 }
 
+#alertMessage {
+  color: red;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}

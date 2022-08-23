@@ -37,4 +37,13 @@ nav span i {
   font-size: 100%;
 }
 
+#scrollUpButton{
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: red;
+}
 
+#navAngleIcon {
+  animation: mover 1s infinite alternate;
+}
