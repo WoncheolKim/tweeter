@@ -1,3 +1,9 @@
+const escaper = function (str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 /*
  * Client-side JS logic goes here
  * jQuery is already loaded
@@ -5,7 +11,7 @@
  */
 $( document ).ready(function() {
   //all of the code here
-     
+
 
 const createTweetElement = function(tweetData) {
   return `  
@@ -17,7 +23,7 @@ const createTweetElement = function(tweetData) {
         </div>
         <div>${tweetData.user.handle}</div>
       </header>
-      <p>${tweetData.content.text}</p>
+      <p>${escaper(tweetData.content.text)}</p>
       <footer class="tweet-footer">
         <div >${timeago.format(tweetData.created_at)}</div>
         <div class="tweet-footer-right">
