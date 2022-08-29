@@ -69,7 +69,6 @@ $('#submitTweet').submit(function(event) {
         data: textData,
         success: () => {
           loadTweets();
-          alert('succssfulypostedtweet');
         },
         error: (error) => {
           console.log(error);
@@ -110,11 +109,13 @@ $('#tweet-text').click(() => {
   $("#alertMessage").slideUp("fast");
 });
 
+//arrow
 $("#navAngleIcon").click(function() {
   $("#new-tweet").slideToggle("slow");
   $("#tweet-text").focus();
 });
 
+//scroll up
 $(window).scroll(function() {
   console.log($(document).scrollTop())
   if ($(document).scrollTop() > 500) {

@@ -16,6 +16,8 @@ textarea::placeholder {
 
 .container {
   background-color: aliceblue;
+  padding-left: 10%;
+  padding-right: 10%;
 
 }
 
@@ -126,3 +128,8 @@ article > p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
 }
+
+#navAngleIcon {
+  animation: mover 1s infinite alternate;
+}
+

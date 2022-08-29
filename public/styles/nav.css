@@ -38,12 +38,15 @@ nav span i {
 }
 
 #scrollUpButton{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   color: white;
-  background-color: red;
+  background-color: #4056A1;
+  margin: 5px;
 }
 
 #navAngleIcon {
   animation: mover 1s infinite alternate;
 }
+
+
