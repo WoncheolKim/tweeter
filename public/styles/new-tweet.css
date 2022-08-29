@@ -30,8 +30,8 @@ textarea::placeholder {
 }
 
 .bottom {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   display: flex;
   justify-content: space-between;
 }
@@ -44,8 +44,8 @@ textarea::placeholder {
 
 .counter {
   font-family: 'Bungee', cursive;
-  font-size: 30px;
-  color: green;
+  font-size: 25px;
+  color: black;
 }
 
 .counter-red {
@@ -129,8 +129,3 @@ article > p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
 }
-
-#navAngleIcon {
-  animation: mover 1s infinite alternate;
-}
-

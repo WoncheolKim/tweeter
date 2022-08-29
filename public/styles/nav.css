@@ -40,13 +40,22 @@ nav span i {
 #scrollUpButton{
   height: 30px;
   width: 30px;
+  margin-top: 5px;
   color: white;
   background-color: #4056A1;
-  margin: 5px;
 }
 
 #navAngleIcon {
+  color: red;
   animation: mover 1s infinite alternate;
 }
 
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
 
+  100% {
+    transform: translateY(-5px);
+  }
+}

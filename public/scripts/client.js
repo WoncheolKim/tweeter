@@ -112,7 +112,8 @@ $('#tweet-text').click(() => {
 //arrow
 $("#navAngleIcon").click(function() {
   $("#new-tweet").slideToggle("slow");
-  $("#tweet-text").focus();
+  $("#tweet-text").focus();//set the cursor immidiately
+  
 });
 
 //scroll up
