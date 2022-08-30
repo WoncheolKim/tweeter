@@ -43,7 +43,7 @@ const loadTweets = function () {
     url: "/tweets",
     success: (response) => {
       console.log(response);
-      renderTweets(response.reverse());
+      renderTweets(response);
     },
     error: (error) => {
       console.log(error);
@@ -130,4 +130,9 @@ $("#scrollUpButton").on("click", function() {
   $(document).scrollTop(0);
 });
 
+loadTweets();
+
 });
+
+
+

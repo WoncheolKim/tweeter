@@ -24,10 +24,11 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
- main {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
+main {
+  /* width: 90%; */
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
   background-color: white;
  }
 

@@ -58,6 +58,7 @@ article {
   display: block;
   border: 5px solid black;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 article header {
@@ -94,6 +95,7 @@ article footer {
 article > p {
   width: 100%;
   border-bottom: 3px solid black;
+  word-break: break-word;
   padding: 35px;
   margin-bottom: 15px;
 }
